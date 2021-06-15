@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Libre Franklin";
+  font-display: fallback;
+  font-weight: 300;
+  font-style: normal;
+  src: url("LibreFranklin-VariableFont_wght.ttf") format("truetype");
+}

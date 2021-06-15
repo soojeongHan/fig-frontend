@@ -1,12 +1,7 @@
 import styled from "styled-components";
 
-const StyledButton = styled.button.attrs((props) => ({
-  background: props.theme.background || "#fff",
-  color: props.theme.color || "#000",
-}))`
-  background: ${(props) => props.background};
-  color: ${(props) => props.color};
-
+const Button = styled.button`
+  font-size: ${({ theme }) => theme.fontSize.xSmall};
   font-weight: bolder;
   border: none;
   padding: 1rem 2rem;
@@ -14,4 +9,4 @@ const StyledButton = styled.button.attrs((props) => ({
   cursor: pointer;
 `;
 
-export default StyledButton;
+export default Button;

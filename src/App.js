@@ -1,50 +1,40 @@
 import React from "react";
-import { createGlobalStyle } from "styled-components";
+import { ThemeProvider } from "styled-components";
 
-import font from "./styles/fonts/LibreFranklin-VariableFont_wght.ttf";
-import Header from "./components/Header";
-import Market from "./components/section/Market";
-import Review from "./components/section/Review";
-import Brands from "./components/section/Brands";
-import Partners from "./components/section/Partners";
-import Team from "./components/section/Team";
-import Blog from "./components/section/Blog";
-import Portfolio from "./components/section/Portfolio";
-import ECommerce from "./components/section/ECommerce";
+import GlobalStyles from "./styles/GlobalStyles";
+import GlobalFont from "./styles/GlobalFont";
+import theme from "./styles/Theme";
+import HeaderContainer from "./containers/header/HeaderContainer";
+import MarketContainer from "./containers/main/MarketContainer";
+import ReviewContainer from "./containers/main/ReviewContainer";
+import BrandsContainer from "./containers/main/BrandsContainer";
+import PartnersContainer from "./containers/main/PartnersContainer";
+import Team from "./components/main/Team";
+import BlogContainer from "./containers/main/BlogContainer";
+import Portfolio from "./components/main/Portfolio";
+import ECommerceContainer from "./containers/main/ECommerceContainer";
 import Footer from "./components/Footer";
-
-const GlobalStyles = createGlobalStyle`
-  @font-face {
-    font-family: 'Libre Franklin';
-    src: url(${font}) format('truetype'),
-    url(${font})
-  }
-  body {
-    font-family: 'Libre Franklin';
-  }
-`;
+import Main from "./components/main/Main";
 
 const App = () => {
   return (
     <React.Fragment>
-      {/* GLOBAL STYLES */}
       <GlobalStyles />
-
-      {/* COMPONENTS 
-        HTML5 시맨틱 태그를 사용한다.
-      */}
-      <Header />
-      <section>
-        <Market />
-        <Review />
-        <Brands />
-        <Partners />
-        <Team />
-        <Blog />
-        <Portfolio />
-        <ECommerce />
-      </section>
-      <Footer />
+      <GlobalFont />
+      <ThemeProvider theme={theme}>
+        <HeaderContainer />
+        <Main>
+          <MarketContainer />
+          <ReviewContainer />
+          <BrandsContainer />
+          <PartnersContainer />
+          <Team />
+          <BlogContainer />
+          <Portfolio />
+          <ECommerceContainer />
+        </Main>
+        <Footer />
+      </ThemeProvider>
     </React.Fragment>
   );
 };

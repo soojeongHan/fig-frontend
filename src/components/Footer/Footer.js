@@ -35,6 +35,7 @@ const FooterExplain = styled(TextHeader)`
   font-size: 0.9rem;
 `;
 const FooterButton = styled(Button)`
+  background: #fff;
   padding: 5px 0;
   text-align: left;
   font-weight: normal;
