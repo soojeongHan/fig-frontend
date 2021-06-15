@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/fig-frontend/static/css/main.7c8f4a52.chunk.css",
+    "main.js": "/fig-frontend/static/js/main.a23db8a3.chunk.js",
+    "main.js.map": "/fig-frontend/static/js/main.a23db8a3.chunk.js.map",
+    "runtime-main.js": "/fig-frontend/static/js/runtime-main.af5c2bd2.js",
+    "runtime-main.js.map": "/fig-frontend/static/js/runtime-main.af5c2bd2.js.map",
+    "static/js/2.2e63bf56.chunk.js": "/fig-frontend/static/js/2.2e63bf56.chunk.js",
+    "static/js/2.2e63bf56.chunk.js.map": "/fig-frontend/static/js/2.2e63bf56.chunk.js.map",
+    "index.html": "/fig-frontend/index.html",
+    "static/css/main.7c8f4a52.chunk.css.map": "/fig-frontend/static/css/main.7c8f4a52.chunk.css.map",
+    "static/js/2.2e63bf56.chunk.js.LICENSE.txt": "/fig-frontend/static/js/2.2e63bf56.chunk.js.LICENSE.txt",
+    "static/media/font.css": "/fig-frontend/static/media/LibreFranklin-VariableFont_wght.79b6e141.ttf",
+    "static/media/Mockup.b49e8a9c.png": "/fig-frontend/static/media/Mockup.b49e8a9c.png",
+    "static/media/image-1.3e809e2d.png": "/fig-frontend/static/media/image-1.3e809e2d.png",
+    "static/media/image-10.18aab229.png": "/fig-frontend/static/media/image-10.18aab229.png",
+    "static/media/image-11.f8eb61e2.png": "/fig-frontend/static/media/image-11.f8eb61e2.png",
+    "static/media/image-12.f65eb14e.png": "/fig-frontend/static/media/image-12.f65eb14e.png",
+    "static/media/image-2.79ab1a44.png": "/fig-frontend/static/media/image-2.79ab1a44.png",
+    "static/media/image-3.08568d9c.png": "/fig-frontend/static/media/image-3.08568d9c.png",
+    "static/media/image-4.59bf5bba.png": "/fig-frontend/static/media/image-4.59bf5bba.png",
+    "static/media/image-5.f43f0bc5.png": "/fig-frontend/static/media/image-5.f43f0bc5.png",
+    "static/media/image-6.23e35065.png": "/fig-frontend/static/media/image-6.23e35065.png",
+    "static/media/image-7.9b393d46.png": "/fig-frontend/static/media/image-7.9b393d46.png",
+    "static/media/image-8.4c1b7bc9.png": "/fig-frontend/static/media/image-8.4c1b7bc9.png",
+    "static/media/image-9.ffcdadd6.png": "/fig-frontend/static/media/image-9.ffcdadd6.png",
+    "static/media/image.51884304.png": "/fig-frontend/static/media/image.51884304.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af5c2bd2.js",
+    "static/js/2.2e63bf56.chunk.js",
+    "static/css/main.7c8f4a52.chunk.css",
+    "static/js/main.a23db8a3.chunk.js"
+  ]
+}
