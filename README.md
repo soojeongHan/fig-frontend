@@ -37,7 +37,7 @@
   - `redux-toolkit`의 Document를 읽고, 기존에 사용했던 미들웨어인 `redux-saga`를 사용하지 않고, 반복적으로 사용되는 코드들을 상당히 줄일 수 있을 것으로 판단하여 사용한다.
 
 - [styled-component](https://styled-components.com/)
-  - `css in js`와 `css`의 차이에 관한 [포스트](https://dev.to/adancarrasco/the-one-about-css-vs-css-in-js-2gn0)와 성능에 관련한 [포스트](https://blueshw.github.io/2020/09/27/css-in-js-vs-css-modules/)을 읽은 이후로 `styled-component`를 frontend를 초창기에 접했을 때를 제외하면 오랜만에 사용한다.
+  - `css in js`와 `css`의 차이에 관한 [포스트](https://dev.to/adancarrasco/the-one-about-css-vs-css-in-js-2gn0)와 성능에 관련한 [포스트](https://blueshw.github.io/2020/09/27/css-in-js-vs-css-modules/)를 통해서 css를 어떻게 처리할 것인가에 대해 다시 한번 생각해보는 포스트였다.
 
 ### 3. Font - [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin?query=Libre+Franklin) 사용
 
